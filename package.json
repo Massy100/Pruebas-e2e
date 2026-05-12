@@ -1,0 +1,35 @@
+{
+  "name": "proyecto-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "type": "module",
+    "dev": "ts-node src/index.ts",
+    "test:unit": "vitest run",
+    "test:unit:watch": "vitest",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:2e2:debug": "playwright test --debug",
+    "test:all": "vitest run && playwright test",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.7.0",
+    "@vitest/browser": "^4.1.6",
+    "nodemon": "^3.1.14",
+    "playwright": "^1.60.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.6"
+  }
+}
