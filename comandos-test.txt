@@ -26,3 +26,4 @@ npx playwright codegen
 
 # Comando para probar solo el TODO
 npx playwright test todo.spec.ts
+npx playwright test todo.spec.ts --ui
