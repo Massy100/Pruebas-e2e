@@ -23,3 +23,6 @@ npx playwright show-report
 
 # Generar código (record tests)
 npx playwright codegen
+
+# Comando para probar solo el TODO
+npx playwright test todo.spec.ts

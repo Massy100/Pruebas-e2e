@@ -10,4 +10,5 @@ test('successfully logs in with valid credentials', async ({page}) => {
     await expect(page).toHaveURL('/dashboard');
     
     await page.waitForLoadState('networkidle');
+
 });
