@@ -1,0 +1,8 @@
+# Ejecutar todos los tests E2E en modo headless (sin interfaz gráfica)
+npm run test:e2e
+
+# Ejecutar tests E2E con interfaz UI de Playwright
+npm run test:e2e:ui
+
+# Ejecutar tests E2E en modo debug (para depurar paso a paso)
+npm run test:2e2:debug

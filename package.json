@@ -10,7 +10,7 @@
     "test:unit:watch": "vitest",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
-    "test:2e2:debug": "playwright test --debug",
+    "test:e2e:debug": "playwright test --debug",
     "test:all": "vitest run && playwright test",
     "build": "tsc",
     "start": "node dist/index.js"
