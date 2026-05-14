@@ -5,4 +5,21 @@ npm run test:e2e
 npm run test:e2e:ui
 
 # Ejecutar tests E2E en modo debug (para depurar paso a paso)
-npm run test:2e2:debug
+npm run test:e2e:debug
+
+# Ejecutar solo archivos específicos
+npx playwright test archivo.spec.ts
+
+# Ejecutar tests con un título específico
+npx playwright test -g "titulo del test"
+
+# Ejecutar en un navegador específico
+npx playwright test --project=chromium
+npx playwright test --project=firefox
+npx playwright test --project=webkit
+
+# Ver reporte de tests después de ejecutarlos
+npx playwright show-report
+
+# Generar código (record tests)
+npx playwright codegen
